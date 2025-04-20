@@ -279,25 +279,25 @@
       font-size: 20px;
     }
     .item1, .item2, .item3, .item4, .item5, .item6, .item7{
-      height: 70vh;
+      height: 60vh;
       margin-top: 5%;
     }
     .same{
-      min-width: 300px;
-      height: 470px;
+      min-width: 250px;
+      height: 380px;
     }
     .product{
       column-gap: 6%;
     }
     .product img{
-      height: 230px;
+      height: 180px;
     }
     .text-group{
       height: 40%;
     }
     .product .text1{
       font-size: 15px;
-      width: 30%;
+      width: 40%;
     }
     .product .text2{
       font-size: 20px;
