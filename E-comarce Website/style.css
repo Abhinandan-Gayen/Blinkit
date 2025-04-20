@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-bar{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    padding: 20px 20px 20px 28px;
+    gap: 5%;
+    cursor: pointer;
+    position:fixed;
+    background-color: white;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(242, 194, 0);
+    text-align: center;
+}
+.logo span{
+    color: #54b226;
+}
+.location .text1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.location .text2{
+    font-size: 13px;
+    padding-top: 2%;
+    color: rgba(0, 0, 0, 0.82);
+}
+.search{
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 10px;
+}
+.search input{
+    width: 94%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 2%;
+    font-size: 16px;
+}
+.search i{
+    position: relative;
+    display: inline;
+    left: 0;
+    padding-left: 2%;
+}
+.login{
+    width: 8vw;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 18px;
+}
+.cart{
+    width: 8vw;
+    background-color: rgba(0, 0, 0, 0.089);
+   border-radius: 15px;
+   text-align: center;
+   padding-top: 1%;
+   font-size: 18px;
+}
+.main-page{
+    width: 1280px;
+    margin: auto;
+    padding-top: 5%;
+}
+.banner-1 img{
+    width: 1300px;
+}
+.banner-2{
+    display: flex;
+    gap: 3%;
+    padding: 1%;
+}
+.banner-2 img{
+    height: 210px;
+    width: 340px;
+}
+.all-item-layout{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+}
+.all-item-layout a{
+    width: 20%;
+}
+.all-item-layout img{
+    height: 180px;
+}
+.item1, .item2, .item3, .item4, .item5, .item6, .item7{
+    height: 55vh;
+    width: 100%;
+    padding: 0 1% 0 1%;
+}
+.headding{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5%;
+    margin: 2% 0 1.5% 0;
+}
+.headding span{
+    font-size: 18px;
+    color: #54b226;
+}
+.product{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 2%;
+    scrollbar-width: none;
+    justify-items: center;
+    font-family: helvetica;
+  }
+.same{
+    min-width: 210px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(130, 130, 130);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.614);
+  }
+  .product img{
+    display: block;
+    height: 150px;
+    margin: auto;
+  }
+  .text-group{
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    justify-content: space-between;
+  }
+  .product .text1{
+    width: 29%;
+    background-color: rgb(235, 236, 236);
+    font-size: 10px;
+    margin-bottom: 5%;
+  }
+  .product .text3{
+    color: gray;
+    font-size: 13px;
+    margin: auto 0 8% 0;
+  }
+  .product .text4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+
+  }
+  .product button{
+    background-color: rgb(222, 255, 222);
+    height: 28px;
+    width: 80px;
+    border: 1px solid #54b226;
+    color: #54b226;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+  .footer-part{
+    height: 90vh;
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Useful-Links{
+    height: 65%;
+    width: 35%;
+  }
+  .Categories{
+    height: 61%;
+    width: 65%;
+  }
+  .footer-part h3{
+    margin: 3% 0  3% 0;
+  }
+  .footer-part .all-text-1{
+    height: 50%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .footer-part .all-text-1, .all-text-2 p{
+    font-size: 15px;
+    cursor: pointer;
+    color: gray;
+  }
+  .text-headding{
+    display: flex;
+  }
+  .text-headding span{
+    margin: 1% 0  2% 0;
+    padding: 2% 0 0 3%;
+    color: #54b226;
+  }
+  .footer-part .all-text-2{
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .codownico{
+    height: 8%;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.020);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .Blinkit{
+    height: 8%;
+    width: 100%;
+    font-size: 5px;
+    color: rgb(154, 24, 24);
+  }
+  .copyright, .download span{
+    margin: 3.5%;
+    display: inline-block;
+    color: gray;
+  }
+  .download{
+    display: flex;
+  }
+  .download img{
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    margin: 1.5% 0 0 3%;
+  }
+  .icon i{
+    font-size: 40px;
+    margin: 1%;
+  }
+  @media (max-width: 480px){
+    .login{
+      display: none;
+    }
+    .cart{
+      display: none;
+    }
+    .banner-1 img{
+      height: 20vh;
+      width: 460px;
+    }
+    .main-page{
+      width: 470px;
+      padding:20vh 2% 2% 2%;
+    }
+    .banner-2 img{
+      height: 90px;
+      width: 120px;
+    }
+    .all-item-layout{
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .all-item-layout img{
+      height: 100px;
+      width: 70px;
+    }
+    .headding{
+      margin: 0% 0 4% 0 ;
+      justify-content: space-between;
+    }
+    .headding p{
+      font-size: 30px;
+    }
+    .headding span{
+      font-size: 20px;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6, .item7{
+      height: 70vh;
+      margin-top: 5%;
+    }
+    .same{
+      min-width: 300px;
+      height: 470px;
+    }
+    .product{
+      column-gap: 6%;
+    }
+    .product img{
+      height: 230px;
+    }
+    .text-group{
+      height: 40%;
+    }
+    .product .text1{
+      font-size: 15px;
+      width: 30%;
+    }
+    .product .text2{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .product .text3{
+      font-size: 20px;
+      padding-top: 5%;
+    }
+    .product .text4 span{
+      font-size: 35px;
+      padding-top: 0%;
+    }
+    .product button{
+      height: 50px;
+      width: 130px;
+      font-size: 25px;
+    }
+    .footer-part{
+      height: 150vh;
+    }
+    .Useful-Links{
+      height: 15%;
+      width: 100%;
+    }
+    .Useful-Links h3, .Categories h3{
+      font-size: 30px;
+    }
+    .Categories span{font-size: 20px;}
+    .Categories{
+      height: 50%;
+      width: 100%;
+    }
+    .all-text-1{
+      row-gap: 7%;
+    }
+    .all-text-1 p, .all-text-2 p{
+      font-size: 20px;
+    }
+    .codownico{
+      height: 2%;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .Blinkit{
+      height: 1%;
+      width: 100%;
+      font-size: 14px;
+      color: gray;
+    }
+    .copyright, .download span{
+      font-size: 20px;
+      width: 100%;
+    }
+    .copyright{
+      text-align: center;
+      margin-top: 2%;
+    }
+    .download{
+      width: 100%;
+      margin: 0;
+      justify-items: center;
+    }
+    .download img{
+      width: 100px;
+      height: 40px;
+      display: inline-block;
+      margin: 1.5% 0 0 3%;
+    }
+    .icon{
+      width: 100%;
+      padding-left: 30%;
+    }
+    .icon i{
+      font-size: 30px;
+      margin: 1%;
+    }
+    .Blinkit{
+      font-size: 10px;
+      margin-top: 3%;
+    }
+    .nav-bar{
+      height: 20vh;
+      flex-wrap: wrap;
+    }
+    .location{
+      width: 65%
+    }
+    .location .text1{
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .location .text2{
+    width: 100%;
+      font-size: 20px;
+
+  }
+  .search{
+    height: 40%;
+      width: 100%;
+     }
+  .search input{
+      font-size: 20px;
+      width: 90%;
+  }
+  .search i{
+      font-size: 23px;
+  }
+  .logo,span{
+    width: 30%;
+      font-size: 40px;
+    }
+  }
