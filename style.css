@@ -98,7 +98,7 @@
 .item1, .item2, .item3, .item4, .item5, .item6, .item7{
     height: 55vh;
     width: 100%;
-    padding: 0 1% 0 1%;
+    padding:2%;
 }
 .headding{
     height: 15%;
@@ -250,18 +250,20 @@
       display: none;
     }
     .banner-1 img{
-      height: 18vh;
-      width: 400px;
+      height: 20vh;
+      width: 100%;
     }
     .main-page{
-      width: 470px;
-      padding:20vh 2% 2% 2%;
+      width: 384px;
+      padding:17vh 2% 2% 2%;
+      margin-left: 0;
     }
     .banner-2 img{
       height: 90px;
-      width: 120px;
+      width: 100px;
     }
     .all-item-layout{
+      width: 100%;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     .all-item-layout img{
@@ -280,11 +282,12 @@
     }
     .item1, .item2, .item3, .item4, .item5, .item6, .item7{
       height: 60vh;
+      width: 100%;
       margin-top: 5%;
     }
     .same{
-      min-width: 280px;
-      height: 380px;
+      min-width: 250px;
+      height: 400px;
     }
     .product{
       column-gap: 6%;
@@ -318,6 +321,7 @@
     }
     .footer-part{
       height: 150vh;
+      width: 100%;
     }
     .Useful-Links{
       height: 15%;
@@ -351,7 +355,7 @@
       color: gray;
     }
     .copyright, .download span{
-      font-size: 20px;
+      font-size: 15px;
       width: 100%;
     }
     .copyright{
@@ -378,27 +382,27 @@
       margin: 1%;
     }
     .Blinkit{
-      font-size: 10px;
-      margin-top: 3%;
+      display: none;
     }
     .nav-bar{
-      height: 20vh;
+      height: 18vh;
+      width: 390px;
       flex-wrap: wrap;
     }
     .location{
       width: 65%
     }
     .location .text1{
-      font-size: 25px;
+      font-size: 23px;
       font-weight: bold;
   }
   .location .text2{
     width: 100%;
-      font-size: 20px;
+      font-size: 15px;
 
   }
   .search{
-    height: 40%;
+    height: 30%;
       width: 100%;
      }
   .search input{
@@ -412,4 +416,4 @@
     width: 30%;
       font-size: 40px;
     }
-  }
+  } 
